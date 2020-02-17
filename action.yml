@@ -1,0 +1,6 @@
+# action.yml
+name: 'Deploy App'
+description: 'Deploy app'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

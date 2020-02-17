@@ -9,5 +9,4 @@ WORKDIR /home/node/app
 USER node
 
 RUN npm install -g @adobe/aio-cli
-RUN npm link
 RUN aio app deploy -v
